@@ -12,8 +12,9 @@
 /*elementos base*/
 
 body {
-  background: var(--preta);
-  font-family: "Times New Roman", Times, serif;
+  background: url(../img/body-bg.jpg);
+  background-size: cover;
+  font-family: Arial, Times, serif;
   color: white;
 }
 
@@ -46,7 +47,7 @@ header nav a:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url(../img/capa-mandaloriano.jpg);
 
-  height: 500px;
+  height: 400px;
   background-size: cover;
 
   display: flex;
@@ -76,6 +77,7 @@ header nav a:hover {
   font-size: 12px;
   cursor: pointer;
   transition: 0.3s ease all;
+  margin-left: 20px;
 }
 
 .botao:hover {
@@ -85,4 +87,26 @@ header nav a:hover {
 
 .botao i {
   margin-right: 8px;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.filme-principal .container{
+  width: 70%;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+}
+
+.carrosel-filmes{
+  margin-top: 5px;
+}
+
+.carrosel-filmes h3{
+  font-size: 30px;
+  margin: 20px;
 }
